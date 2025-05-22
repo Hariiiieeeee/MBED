@@ -1,0 +1,19 @@
+{
+    "config": {
+        "wifi-ssid": {
+            "value": "\"chittuKuruvi\""
+        },
+        "wifi-password": {
+            "value": "\"1234hari\""
+        }
+    },
+    "target_overrides": {
+        "DISCO_L475VG_IOT01A": {
+            "target.network-default-interface-type": "WIFI",
+            "target.components_add": ["ism43362"],
+            "nsapi.default-wifi-security": "WPA_WPA2",
+            "nsapi.default-wifi-ssid": "\"chittuKuruvi\"",
+            "nsapi.default-wifi-password": "\"1234hari\""
+        }
+    }
+}
