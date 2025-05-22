@@ -1,0 +1,13 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.device_has_add": ["EMAC", "INTERNAL_WEBSERVER"],
+            "target.network-default-interface-type": "WIFI"
+        }
+    },
+    "config": {
+        "mbed-mbed-os": {
+            "source": "mbed-os"
+        }
+    }
+}

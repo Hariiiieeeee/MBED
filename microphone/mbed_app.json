@@ -1,0 +1,15 @@
+{
+    "requires": ["bare-metal"],
+    "target_overrides": {
+        "*": {
+            "target.device_has_add": ["I2S"],
+            "platform.stdio-baud-rate": 115200,
+            "platform.stdio-convert-newlines": true
+        },
+        "DISCO_L475VG_IOT01A": {
+            "target.clock_source": "USE_PLL_HSE_EXTC|USE_PLL_HSI",
+            "target.lse_available": 1,
+            "target.macros_add": ["USE_HAL_DRIVER", "STM32L475xx"]
+        }
+    }
+}
