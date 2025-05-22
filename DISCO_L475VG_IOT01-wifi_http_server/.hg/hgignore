@@ -1,0 +1,30 @@
+syntax: glob
+.hg
+.git
+.svn
+.CVS
+.cvs
+*.orig
+BUILD
+.build
+.export
+.msub
+.meta
+.ctags*
+*.uvproj
+*.uvopt
+*.project
+*.cproject
+*.launch
+*.ewp
+*.eww
+/Makefile
+Debug
+*.htm
+.mbed
+*.settings
+mbed_settings.py
+*.py[cod]
+# subrepo ignores
+DISCO_L475VG_IOT01A_wifi
+mbed-os
